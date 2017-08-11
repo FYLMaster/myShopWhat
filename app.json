@@ -1,0 +1,51 @@
+{
+  "pages":[
+    "pages/index/index",
+    "pages/logs/logs",
+    "pages/brand/brand",
+    "pages/list/list",
+    "pages/details/details",
+    "pages/classify/classify",
+    "pages/cart/cart",
+    "pages/mine/mine"
+  ],
+  "window":{
+    "backgroundTextStyle":"white",
+    "navigationBarTextStyle": "white",
+    "navigationBarTitleText": "环球小镇",
+    "navigationBarBackgroundColor": "#292929",
+    "backgroundColor": "#F2f2f2",
+    "enablePullDownRefresh": true
+  },
+  "tabBar": {
+    "color": "#6e6d6b",
+    "selectedColor": "#f9f027",
+    "borderStyle": "white",
+    "backgroundColor": "#292929",
+    "list": [{
+      "pagePath": "pages/index/index",
+      "text": "极速免税",
+      "iconPath": "images/footer-icon-01.png",
+      "selectedIconPath": "images/footer-icon-01-active.png"
+    },
+    {
+      "pagePath": "pages/classify/classify",
+      "text": "分类",
+      "iconPath": "images/footer-icon-02.png",
+      "selectedIconPath": "images/footer-icon-02-active.png"
+    },
+    {
+      "pagePath": "pages/cart/cart",
+      "text": "购物车",
+      "iconPath": "images/footer-icon-03.png",
+      "selectedIconPath": "images/footer-icon-03-active.png"
+    },
+    {
+      "pagePath": "pages/mine/mine",
+      "text": "我的",
+      "iconPath": "images/footer-icon-04.png",
+      "selectedIconPath": "images/footer-icon-04-active.png"
+    }]
+  },
+  "debug":true
+}
